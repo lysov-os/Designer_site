@@ -20,6 +20,23 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development do
+  gem 'rspec-rails'
+  gem 'annotate'
+  gem 'faker'
+end
+
+group :test do
+  gem 'rspec-rails'
+  gem 'webrat'
+  gem 'autotest'
+  gem 'spork', '~> 0.9.0.rc8'
+  gem 'test_notifier'
+  gem 'database_cleaner'
+  gem 'autotest-notification'
+  gem 'factory_girl_rails'
+end
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
