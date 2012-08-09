@@ -1,7 +1,7 @@
 
 class PagesController < ApplicationController
   def home
-  	@header = "Home"
+  	@header = "Home"    
   end
 
   def about
