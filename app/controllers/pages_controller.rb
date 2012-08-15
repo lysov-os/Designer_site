@@ -1,18 +1,18 @@
 
 class PagesController < ApplicationController
   def home
-  	@header = "Home"    
+  	@header = "home"    
   end
 
   def about
-  	@header = "About"
+  	@header = "about"
   end
 
   def portfolio
-  	@header = "Portfolio"
+  	@header = "portfolio"
   end
 
   def contact
-  	@header = "Contact"
+  	@header = "contact"
   end
 end
