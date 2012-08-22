@@ -1,3 +1,4 @@
+<%= stylesheet_link_tag 'bootstrap-image-gallery.min', :media => 'screen' %>
 <div class="row">
 	<div class="span9">
 		<ul class="thumbnails">
@@ -175,20 +176,21 @@
 	<%= image_tag("grey_out.png") %>
 	<span style="position: relative; bottom: 90px;" id="d6">&nbsp;</span>
 	<div class="span6">
-		<ul class="thumbnails">
-			<li>
+		<div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery">
+			<a title="Rising Steam and Trout  ~Explore~" href="http://farm9.static.flickr.com/8443/7819076546_b57bb91950_b.jpg" rel="gallery">	
 			    <%= image_tag("portfolio_6.jpg", :class => "thumbnail") %>
-			</li>
-			<li>
+			</a>
+			<a title="Sundown in Amsterdam" href="http://farm8.static.flickr.com/7277/7829491642_9bb92d959d_b.jpg" rel="gallery">
 			    <%= image_tag("portfolio_12.jpg", :class => "thumbnail") %>
-			</li>
-			<li>
+			</a>
+			<a title="Ancient Stones And Sea" href="http://farm8.static.flickr.com/7252/7826143996_91e0d17f42_b.jpg" rel="gallery">
 			    <%= image_tag("portfolio_8.jpg", :class => "thumbnail") %>
-			</li>
-			<li>
+			</a>
+			<a title="Beautiful Eifel (1) [explore 20.08.2012]" href="http://farm8.static.flickr.com/7274/7824208426_6c44969e72_b.jpg" rel="gallery">
 			    <%= image_tag("portfolio_7.jpg", :class => "thumbnail") %>
-			</li>			
-		</ul>
+			</a>	
+
+		</div>
 		<a href="#">Back to Top</a>
 	</div>
 	<div class="span3">
@@ -197,3 +199,32 @@
 	</div>
 </div>
 
+<!-- modal-gallery is the modal dialog used for the image gallery -->
+<div id="modal-gallery" class="modal modal-gallery hide fade">
+    <div class="modal-header">
+        <a class="close" data-dismiss="modal">×</a>
+        <h3 class="modal-title"></h3>
+    </div>
+    <div class="modal-body"><div class="modal-image"></div></div>
+    <div class="modal-footer">
+        <a class="btn modal-download" target="_blank">
+            <i class="icon-download"></i>
+            <span>Download</span>
+        </a>
+        <a class="btn btn-success modal-play modal-slideshow" data-slideshow="5000">
+            <i class="icon-play icon-white"></i>
+            <span>Slideshow</span>
+        </a>
+        <a class="btn btn-info modal-prev">
+            <i class="icon-arrow-left icon-white"></i>
+            <span>Previous</span>
+        </a>
+        <a class="btn btn-primary modal-next">
+            <span>Next</span>
+            <i class="icon-arrow-right icon-white"></i>
+        </a>
+    </div>
+</div>
+
+<%= javascript_include_tag :"load-image.min.js" %>
+<%= javascript_include_tag :"bootstrap-image-gallery.min.js" %>
