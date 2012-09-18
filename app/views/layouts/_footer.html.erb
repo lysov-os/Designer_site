@@ -1,23 +1,37 @@
 <footer>
 	<div class="container">
-		<div id="footer-top" class="row"></div>
-		<div id="footer-bottom" class="row">
-			<div class="pull-right">
-				<%= link_to "home", root_path %>
-				&bull;
-				<%= link_to "about", about_path %>
-				&bull;
-				<%= link_to "portfolio", portfolio_path %>
-				&bull;
-				<%= link_to "contact", contact_path %>
-				<a href="http://vk.com">
-    				<%= image_tag("logo_vk.png", :alt => "vkontakte") %>
-    			</a>
-    			<a href="http://facebook.com">
-					<%= image_tag("logo_facebook.png", :alt => "facebook") %>
-    			</a>
+		<div id="footer_top" class="row">
+			<div class="span12">
+				<div class="right">
+					<a id="vk_icon" title="Vkontakte" href=""></a>
+					<a id="facebook_icon" title="Facebook" href=""></a>
+					<a id="twitter_icon" title="Twitter" href=""></a>
+				</div>
+				<div class="row">
+					<div class="span2">
+						<ul>
+							<li>
+								<%= link_to "home", root_path %>
+							</li>			
+							<li>
+								<%= link_to "about", about_path %>
+							</li>								
+							<li>
+								<%= link_to "portfolio", portfolio_path %>
+							</li>
+							<li>
+								<%= link_to "contact", contact_path %>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer_bottom" class="row">
+			<div class="span12">
 				&nbsp; &copy; EskimoCreatorz 2012
 			</div>
 		</div>
 	</div>
+	<div style="clear:both"> </div>
 </footer>
