@@ -4,6 +4,7 @@
 3.jpg: 3-72ae5c27d5a427278f761bca591e4521.jpg
 favicon.ico: favicon-98cc3304a1279a55bf03fa92e63d4c18.ico
 grey_out.png: grey_out-376b4f85ac801047ac0f34ed97837ed9.png
+loading.gif: loading-c811d47aa4e029305c67d71fe56dff4e.gif
 logo_facebook.png: logo_facebook-a3b6c84532ca261590f36edf0b744d3b.png
 logo_vk.png: logo_vk-9471c88f3db9617021fdf589b9af2ea5.png
 mashka/1.jpg: mashka/1-865f22f526488380813ec894d8e5c421.jpg
@@ -23,12 +24,17 @@ portfolio_7.jpg: portfolio_7-704c710955bcd1a733a1306de1635493.jpg
 portfolio_8.jpg: portfolio_8-f6e306c4ba926ba470fd35db5fb21ff3.jpg
 portfolio_9.jpg: portfolio_9-53411ee0e1f24d0f85cea215a79630e8.jpg
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
-application.js: application-14e4f41bd17479b24be9154cc2b225bb.js
+socials_icons.png: socials_icons-4d3df124458e5bdf8445731d9ed16498.png
+application.js: application-fd6ea74d5bd81e04a118901b909b2106.js
+bootstrap-image-gallery.min.js: bootstrap-image-gallery.min-ae1503a2c74d5c11046d3b6155d3c60f.js
 bootstrap.js: bootstrap-80eeb5ef51762ac8b53e8b06c09a4f13.js
+load-image.min.js: load-image.min-00b026923e83e98686dba0130f7a31e2.js
 pages.js: pages-3af39f1da6f167c2cbf453ed74daff3d.js
 yandex_metrica.js: yandex_metrica-0687de4432c0b29c1f107f10772f7c63.js
-application.css: application-5bc742fe6b92b3a9a1f6955cf90b8650.css
+application.css: application-8916252b09c8ac8160b979bcaa486795.css
+bootstrap-image-gallery.min.css: bootstrap-image-gallery.min-0011b98a9021fc5749ea3dcdeab9e1ec.css
 bootstrap_and_overrides.css: bootstrap_and_overrides-5bc742fe6b92b3a9a1f6955cf90b8650.css
+custom.css: custom-bd4b69e19b6af034ec361ca4c82bb0a5.css
 jquery-ui.js: jquery-ui-5e86558a29e9896e7842cba13e007b88.js
 jquery-ui.min.js: jquery-ui.min-0e56c874a8ff809a50525176c91a2457.js
 jquery.js: jquery-765cc76e15d62a88cd61468aeaaaeb5d.js
