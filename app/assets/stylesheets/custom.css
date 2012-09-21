@@ -54,12 +54,18 @@ footer #footer_bottom {
     border-top: 1px solid #444444;
     padding-top: 20px;
 }
-#twitter_icon, #facebook_icon, #rss_icon {
+#twitter_icon, #facebook_icon, #rss_icon, #vk_icon {
     background-image: url("/assets/socials_icons.png");
     display: inline-block;
     height: 42px;
     margin-right: 5px;
     width: 42px;
+}
+#vk_icon {
+    background-position: -168px -42px;
+}
+#vk_icon:hover{
+    background-position: -168px 0;
 }
 #facebook_icon {
     background-position: -84px -42px;
@@ -101,4 +107,49 @@ footer #footer_bottom {
 .landing_gala {
     padding: 0 5px;
     width: 220px;
+}
+.lb_col{
+    margin-top: 5px;
+}
+
+.lb_col ul{
+    margin-bottom: 60px !important;
+    width: 195px;
+    position: fixed;
+}
+
+.lb_col ul, .lb_col ul li{
+    list-style-type: none;
+    margin: 0px;
+}
+.lb_col ul li a{
+    padding: 10px;
+    display: block;
+    margin: 0px;
+}
+
+.lb_col ul li a:hover{
+  background-color: #EEE;   
+    text-decoration: none;
+}
+
+.lb_col ul li a.current{
+    color: white;
+    background-color: #900;
+    border-top: 1px solid #900;
+}
+#scrollNavArrow {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    left: 100%;
+    margin-left: -100px;
+    top: 100%;
+    margin-top: -70px;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 4;
+    display: none;
+    background-image: url("/assets/scroll_up.png");
+    background-position: 0 0;
 }

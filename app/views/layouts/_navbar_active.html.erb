@@ -4,5 +4,9 @@ $(document).ready(function(){
 	if(!$portfolio.hasClass('active')){
 		$portfolio.addClass('active');
 	}
+	var $portfolio = $("#nav_left_<%= @header %>");
+	if(!$portfolio.hasClass('current')){
+		$portfolio.addClass('current');
+	}
 })
 </script>
