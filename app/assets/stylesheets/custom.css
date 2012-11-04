@@ -108,36 +108,6 @@ footer #footer_bottom {
     padding: 0 5px;
     width: 220px;
 }
-.lb_col{
-    margin-top: 5px;
-}
-
-.lb_col ul{
-    margin-bottom: 60px !important;
-    width: 195px;
-    position: fixed;
-}
-
-.lb_col ul, .lb_col ul li{
-    list-style-type: none;
-    margin: 0px;
-}
-.lb_col ul li a{
-    padding: 10px;
-    display: block;
-    margin: 0px;
-}
-
-.lb_col ul li a:hover{
-  background-color: #EEE;   
-    text-decoration: none;
-}
-
-.lb_col ul li a.current{
-    color: white;
-    background-color: #900;
-    border-top: 1px solid #900;
-}
 #scrollNavArrow {
     position: fixed;
     height: 40px;
