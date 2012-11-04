@@ -1,188 +1,62 @@
+<%= stylesheet_link_tag    "ImageGalleryCSS", :media => "all" %>
+
+<div id="modal-gallery" class="modal modal-gallery hide fade" tabindex="-1">
+    <div class="modal-header">
+        <a class="close" data-dismiss="modal">&times;</a>
+        <h3 class="modal-title"></h3>
+    </div>
+    <div class="modal-body"><div class="modal-image"></div></div>
+    <div class="modal-footer">
+        <a class="btn btn-primary modal-next">Next <i class="icon-arrow-right icon-white"></i></a>
+        <a class="btn btn-info modal-prev"><i class="icon-arrow-left icon-white"></i> Previous</a>
+        <a class="btn btn-success modal-play modal-slideshow" data-slideshow="5000"><i class="icon-play icon-white"></i> Slideshow</a>
+        <a class="btn modal-download" target="_blank"><i class="icon-download"></i> Download</a>
+    </div>
+</div>
+
 <div id="portfolioTop"></div>
 <div class="row">	
-	<div class="span9">
-		<div class="row">
-			<div class="span9">
-				<ul class="thumbnails">
-					<li>
-					    <a href="#d1" class="thumbnail">
-						    <%= image_tag("portfolio_1.jpg") %>
-					    </a>
-					</li>
-					<li>
-					    <a href="#d2" class="thumbnail">
-						    <%= image_tag("portfolio_2.jpg") %>
-					    </a>
-					</li>
-					<li>
-					    <a href="#d3" class="thumbnail">
-						    <%= image_tag("portfolio_3.jpg") %>
-					    </a>
-					</li>
-					<li>
-					    <a href="#d4" class="thumbnail">
-						    <%= image_tag("portfolio_4.jpg") %>
-					    </a>
-					</li>
-					<li>
-					    <a href="#d5" class="thumbnail">
-						    <%= image_tag("portfolio_5.jpg") %>
-					    </a>
-					</li>
-					<li>
-					    <a href="#d6" class="thumbnail">
-						    <%= image_tag("portfolio_6.jpg") %>
-					    </a>
-					</li>
-				</ul>		
-			</div>
-		</div>
-		<div class="row">
-			<%= image_tag("grey_out.png") %>
-			<span style="position: relative; bottom: 90px;" id="d1">&nbsp;</span>
-			<div class="span6">
-				<ul class="thumbnails">
-					<li>
-					    <%= image_tag("portfolio_1.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_7.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_8.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_9.jpg", :class => "thumbnail") %>
-					</li>			
-				</ul>
-			</div>
-			<div class="span3">
-				<h2>Rail Station</h2>
-				<p>Samara plan. Rail station design</p>
-			</div>
-		</div>
-		<div class="row">
-			<%= image_tag("grey_out.png") %>
-			<span style="position: relative; bottom: 90px;" id="d2">&nbsp;</span>
-			<div class="span6">
-				<ul class="thumbnails">
-					<li>
-					    <%= image_tag("portfolio_2.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_10.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_11.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_12.jpg", :class => "thumbnail") %>
-					</li>			
-				</ul>
-			</div>
-			<div class="span3">
-				<h2>My apartment1</h2>
-				<p>My home apartment1</p>
-			</div>
-		</div>
-		<div class="row">
-			<%= image_tag("grey_out.png") %>
-			<span style="position: relative; bottom: 90px;" id="d3">&nbsp;</span>
-			<div class="span6">
-				<ul class="thumbnails">
-					<li>
-					    <%= image_tag("portfolio_3.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_9.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_11.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_10.jpg", :class => "thumbnail") %>
-					</li>			
-				</ul>
-			</div>
-			<div class="span3">
-				<h2>My apartment2</h2>
-				<p>My home apartment2</p>
-			</div>
-		</div>
-		<div class="row">
-			<%= image_tag("grey_out.png") %>
-			<span style="position: relative; bottom: 90px;" id="d4">&nbsp;</span>
-			<div class="span6">
-				<ul class="thumbnails">
-					<li>
-					    <%= image_tag("portfolio_4.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_7.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_12.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_8.jpg", :class => "thumbnail") %>
-					</li>			
-				</ul>
-			</div>
-			<div class="span3">
-				<h2>My apartment3</h2>
-				<p>My home apartment3</p>
-			</div>
-		</div>
-		<div class="row">
-			<%= image_tag("grey_out.png") %>
-			<span style="position: relative; bottom: 90px;" id="d5">&nbsp;</span>
-			<div class="span6">
-				<ul class="thumbnails">
-					<li>
-					    <%= image_tag("portfolio_5.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_9.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_11.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_10.jpg", :class => "thumbnail") %>
-					</li>			
-				</ul>
-			</div>
-			<div class="span3">
-				<h2>My apartment4</h2>
-				<p>My home apartment4</p>
-			</div>
-		</div>
-		<div class="row">
-			<%= image_tag("grey_out.png") %>
-			<span style="position: relative; bottom: 90px;" id="d6">&nbsp;</span>
-			<div class="span6">		
-				<ul class="thumbnails">			
-					<li>
-					    <%= image_tag("portfolio_6.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_12.jpg", :class => "thumbnail") %>
-					</li>
-					<li>
-					    <%= image_tag("portfolio_8.jpg", :class => "thumbnail") %>
-					</li>					
-					<li>
-					    <%= image_tag("portfolio_7.jpg", :class => "thumbnail") %>
-					</li>	
-				</ul>
-			</div>
-			<div class="span3">
-				<h2>My apartment5</h2>
-				<p>My home apartment5</p>
-			</div>
-		</div>
-	</div>
+	<div id="gallery" class="span12" data-target="#modal-gallery" data-toggle="modal-gallery" >
+		<a rel="gallery" href="<%= image_path('870x500/4.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DSC_0603.jpg", :alt => "Mashka") %>
+		</a>
+
+		<a rel="gallery" href="<%= image_path('870x500/1.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DSC_0603.jpg", :alt => "Mashka") %>
+		</a>
+		<a rel="gallery" href="<%= image_path('870x500/10.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DSC_0603.jpg", :alt => "Mashka") %>
+		</a>
+		<a rel="gallery" href="<%= image_path('870x500/11.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DSC_0603.jpg", :alt => "Mashka") %>
+		</a>
+		<a rel="gallery" href="<%= image_path('870x500/12.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DSC_0603.jpg", :alt => "Mashka") %>
+		</a>
+		<a rel="gallery" href="<%= image_path('870x500/13.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DSC_0603.jpg", :alt => "Mashka") %>
+		</a>
+		<a rel="gallery" href="<%= image_path('870x500/14.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DCS_0124.jpg", :alt => "Mashka") %>
+		</a>
+		<a rel="gallery" href="<%= image_path('870x500/2.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DCS_0133.jpg", :alt => "Mashka") %>
+		</a>
+		<a rel="gallery" href="<%= image_path('870x500/3.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DCS_0134.jpg", :alt => "Mashka") %>
+		</a>
+		<a rel="gallery" href="<%= image_path('870x500/5.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DCS_0557-2.jpg", :alt => "Mashka") %>
+		</a>
+		<a rel="gallery" href="<%= image_path('870x500/6.jpg')%>" title="Комната">
+			<%= image_tag("260x180/DCS_0603.jpg", :alt => "Mashka") %>
+		</a>
+
+	</div>			   
 </div>
 <div>
 	<a  id="scrollNavArrow" class="scrollArrow" href="#portfolioTop"></a>
 </div>
+
+<%= javascript_include_tag "LoadImage" %>
+<%= javascript_include_tag "ImageGalleryJS" %>
