@@ -123,3 +123,21 @@ footer #footer_bottom {
     background-image: url("/assets/scroll_up.png");
     background-position: 0 0;
 }
+a.brand > span{
+    font-size:16px;
+    color: #2595E3;
+}
+ul.header_ul > li.phone_li{
+    background-image: url("/assets/phone.png");
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 30px;
+}
+ul.header_ul > li.mail_li{
+    background-image: url("/assets/mail.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+ul.header_ul li>a{
+    margin-left:30px;
+}
