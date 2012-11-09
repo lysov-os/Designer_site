@@ -5,6 +5,7 @@ html{
     float: right;
 }
 footer {
+    margin-top: 20px;
     background-color: #333333;
     border-top: 4px solid #000000;
     color: #666666;
