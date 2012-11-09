@@ -11,6 +11,13 @@ footer {
     color: #666666;
     min-height: 200px;
 }
+
+@media (max-width: 767px){
+    footer{
+        margin: 0 -20px;
+    }
+}
+
 footer a {
     color: #999999;
 }
