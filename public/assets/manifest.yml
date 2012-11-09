@@ -52,8 +52,9 @@ scroll_up.png: scroll_up-9952b8bab7c14dbf71dc1d3b2f42c932.png
 socials_icons.png: socials_icons-366a2d01908ed47c91da68a5db920224.png
 ImageGalleryJS.js: ImageGalleryJS-9b872fca681f002c9a6befd430030c09.js
 LoadImage.js: LoadImage-31740aef4c0363e5f16a8811d0ae5992.js
-application.js: application-056cd580f58a71674d9899476d76ce85.js
+application.js: application-9563eb5a05b032dbad14fcd1cd6f3531.js
 bootstrap.js: bootstrap-80eeb5ef51762ac8b53e8b06c09a4f13.js
+google_analytics.js: google_analytics-e8989cf04f9a244396ad6c85a6186a85.js
 pages.js: pages-3af39f1da6f167c2cbf453ed74daff3d.js
 portfolio_scroll.js: portfolio_scroll-e4cef1272c0bee0c1574ad6e44530ebe.js
 yandex_metrica.js: yandex_metrica-0687de4432c0b29c1f107f10772f7c63.js
