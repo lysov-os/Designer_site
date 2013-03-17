@@ -149,3 +149,6 @@ ul.header_ul > li.mail_li{
 ul.header_ul li>a{
     margin-left:30px;
 }
+div #gallery img{
+    margin-top: 5px;
+}
