@@ -152,3 +152,6 @@ ul.header_ul li>a{
 div #gallery img{
     margin-top: 5px;
 }
+body{
+    text-align: justify;
+}
